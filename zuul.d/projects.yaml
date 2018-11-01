@@ -1,0 +1,15 @@
+- project:
+    name: ^.*$
+    check:
+      jobs: []
+    gate:
+      jobs: []
+
+- project:
+    name: openstack-dev/ci-sandbox
+    check:
+      jobs:
+        - noop
+    gate:
+      jobs:
+        - noop
