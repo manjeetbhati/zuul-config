@@ -6,7 +6,7 @@
       jobs: []
 
 - project:
-    name: zuul-config
+    name: openstack/ci-sandbox
     check:
       jobs:
         - noop
