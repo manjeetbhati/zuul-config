@@ -9,7 +9,4 @@
     name: openstack-dev/ci-sandbox
     check:
       jobs:
-        - noop
-    gate:
-      jobs:
-        - noop
+        - tox-pep8
