@@ -3,5 +3,5 @@
     parent: null
     nodeset:
       nodes:
-        - name: ubuntu-bionic
-          label: ubuntu-bionic
+        - name: ubuntu-xenial
+          label: ubuntu-xenial
