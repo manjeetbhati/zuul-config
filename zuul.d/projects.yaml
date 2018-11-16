@@ -9,4 +9,4 @@
     name: openstack-dev/ci-sandbox
     check:
       jobs:
-        - tox-pep8
+        - run-test-com
