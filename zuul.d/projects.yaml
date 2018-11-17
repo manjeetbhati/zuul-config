@@ -6,7 +6,7 @@
       jobs: []
 
 - project:
-    name: openstack-dev/ci-sandbox
+    name: openstack/tap-as-a-service
     check:
       jobs:
         - run-test-com
