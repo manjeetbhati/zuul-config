@@ -9,4 +9,4 @@
     name: openstack/tap-as-a-service
     check:
       jobs:
-        - run-test-com
+        - tap-as-a-service-dsvm-intel-sriov
