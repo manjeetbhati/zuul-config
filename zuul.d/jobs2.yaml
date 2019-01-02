@@ -15,7 +15,7 @@
       - playbooks/base/post-logs.yaml
     roles:
       - zuul: zuul-jobs
-    timeout: 1800
+    timeout: 3500
     nodeset:
       nodes:
         - name: ubuntu-xenial
