@@ -10,3 +10,9 @@
     check:
       jobs:
         - tap-as-a-service-dsvm-intel-sriov
+
+- project:
+    name: openstack-dev/ci-sandbox
+    check:
+      jobs:
+        - run-test-command
