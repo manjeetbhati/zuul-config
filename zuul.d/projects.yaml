@@ -9,4 +9,8 @@
     name: openstack-dev/ci-sandbox
     check:
       jobs:
-        - run-test-command
+        - noop
+    gate:
+      jobs:
+        - noop
+
